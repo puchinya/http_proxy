@@ -1,0 +1,8 @@
+version: "3.5"
+services:
+  http_proxy:
+    container_name: http_proxy
+    build: .
+    ports:
+      - 38080:38080
+
