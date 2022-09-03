@@ -14,4 +14,5 @@ replace_squid_conf() {
 
 replace_squid_conf "%SQUID_CONFIG_PORT%" ${SQUID_CONFIG_PORT}
 
+chown squid:squid /dev/stdout
 /usr/sbin/squid -N -f /etc/squid/squid.conf
