@@ -1,6 +1,6 @@
 FROM alpine:3.20.3
 
-RUN apk --update --no-cache add 'squid=6.12-r0' apache2-utils
+RUN apk --update --no-cache add 'squid=6.9-r0' apache2-utils
 
 ENV SQUID_CONFIG_PORT=38080
 # basic only
